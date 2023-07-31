@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=VT323&display=swap');
+            p{
+                font-family: 'Space Grotesk', sans-serif;
+                font-size: large;
+        }
+            h2{
+                font-family: 'Space Grotesk', sans-serif;
+                font-size: 30px;
+        }
+            #image{
+                border-radius: 6px;
+        }
+            .main{
+                border-radius: 6px;
+        }
+            #image:hover{
+                transform: scale(1.1);
+                cursor: pointer;
+                transition: 0.6s;
+        }  
+        ::-moz-selection { /* Code for Firefox */
+            color: white;
+            background: #B91C1C;
+        }
+          
+        ::selection {
+            color: white;
+            background: #B91C1C;
+        }
+        /* body {
+            overflow: hidden;
+        } */
+        </style>
+        <body>
+            <div class="container" style="margin-top: 40px; flex-wrap: wrap;">
+                <center><div class="logo">
+                    <img src="https://media.discordapp.net/attachments/1133543254697201754/1134811040375394354/burger.png?width=810&height=452" alt="" width="800px" id="mainImage" class="main">
+                </div>
+                <div class="images" width="800px;">
+                    <img onclick="changeImage(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134811052085886986/burger-4.webp?width=810&height=456" width="170px" id="image" class="thumbnail">
+                    <img onclick="changeImage(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134811052434006047/burger-1.webp?width=810&height=456" width="170px" id="image" class="thumbnail">
+                    <img onclick="changeImage(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134811052752769054/burger-2.webp?width=810&height=456" width="170px" id="image" class="thumbnail">
+                    <img onclick="changeImage(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134811053075742790/burger-3.webp?width=810&height=456" width="170px" id="image" class="thumbnail">
+                </div></center>
+                <center><div>
+                    <h2 style="text-align: center;">BurgerShot</h2>
+                    <p style="max-width: 700px; text-align: center;">Welcome to "Barbaros Burger Shot" in our thrilling FiveM server! 
+                        Indulge in mouthwatering, customizable burgers made from the finest ingredients, accompanied by a variety of delicious sides. 
+                        With its immersive interior and friendly staff, Barbaros Burger Shot is the go-to spot for hungry citizens seeking a delectable dining experience in the heart of our city. Plus, don't miss the exclusive loyalty program 
+                        that rewards our loyal customers with special perks and bonuses!</p>
+                </div></center>
+            </div>
+            
+            <div class="container" style="margin-top: 40px; flex-wrap: wrap;">
+        
+                <center><div class="logo">
+                    <img src="https://media.discordapp.net/attachments/1133543254697201754/1134816315010465812/pizzathis.jpg?width=810&height=442" alt="" width="800px" id="mainImage1" class="main">
+                </div>
+                <div class="images" width="800px;">
+                    <img onclick="changeImage1(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134816314632962059/pizzathis-4.jpg?width=810&height=439" width="170px" id="image" class="thumbnail1">
+                    <img onclick="changeImage1(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134816315706703902/pizzathis-1.jpg?width=810&height=437" width="170px" id="image" class="thumbnail1">
+                    <img onclick="changeImage1(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134816316155506778/pizzathis-2.jpg?width=810&height=437" width="170px" id="image" class="thumbnail1">
+                    <img onclick="changeImage1(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134816316495249458/pizzathis-3.jpg?width=810&height=437" width="170px" id="image" class="thumbnail1">
+                </div></center>
+                <center><div>
+                    <h2 style="text-align: center;">PizzaThis</h2>
+                    <p style="max-width: 700px; text-align: center;">In the vibrant world of Fivem, the pizza job awaits as a delectable opportunity 
+                        for aspiring chefs. Embrace the hustle and bustle of Barbaros, 
+                        crafting mouthwatering pizzas with precision and flair. Satisfy the hungry denizens, and watch your culinary empire rise!</p>
+                </div></center>
+            </div>
+            
+            <div class="container" style=" margin-top: 40px; flex-wrap: wrap;">
+        
+                <center><div class="logo">
+                    <img src="https://media.discordapp.net/attachments/1133543254697201754/1134817925468000264/sushi.png?width=810&height=541" alt="" width="800px" id="mainImage2" class="main">
+                </div>
+                <div class="images" width="800px;">
+                    <img onclick="changeImage2(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134817698338054144/sushi3.png?width=810&height=432" width="170px" id="image" class="thumbnail2">
+                    <img onclick="changeImage2(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134817698862354512/sushi1.png?width=810&height=428" width="170px" id="image" class="thumbnail2">
+                    <img onclick="changeImage2(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134817699877371914/sushi2.png?width=810&height=432" width="170px" id="image" class="thumbnail2">
+                    <img onclick="changeImage2(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134817643589799966/sushi4.png?width=810&height=430" width="170px" id="image" class="thumbnail2">
+                </div></center>
+                <center><div>
+                    <h2 style="text-align: center;">Sushi</h2>
+                    <p style="max-width: 700px; text-align: center;">Sushi: A virtual sushi haven within the bustling world of Barbaros RolePlay, 
+                        offering players a unique opportunity to indulge in mouthwatering virtual sushi delights. Immerse yourself in the pixelated charm of 
+                        Japanese cuisine and savor an array of delectable rolls and sashimi in this thrilling gaming experience.</p>
+                </div></center>
+            </div>
+            
+        
+            <div class="container" style=" margin-top: 40px; flex-wrap: wrap;">
+                <center><div class="logo">
+                    <img src="https://media.discordapp.net/attachments/1133543254697201754/1134899893912211566/tequila.png?width=1281&height=671" alt="" width="800px" id="mainImage3" class="main">
+                </div>
+                <div class="images" width="800px;">
+                    <img onclick="changeImage3(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134899893543125164/tequila4.png?width=1344&height=671" width="170px" id="image" class="thumbnail3">
+                    <img onclick="changeImage3(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134899892922355862/tequila3.png?width=1293&height=671" width="170px" id="image" class="thumbnail3">
+                    <img onclick="changeImage3(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134899894352625796/tequila2.png?width=1283&height=671" width="170px" id="image" class="thumbnail3">
+                    <img onclick="changeImage3(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134900406577811557/tequila6.png?width=1281&height=671" width="170px" id="image" class="thumbnail3">
+                </div></center>
+                <center><div>
+                    <h2 style="text-align: center;">Tequila</h2>
+                    <p style="max-width: 700px; text-align: center;">Tequila Bar: A vibrant and immersive virtual hangout in the world of Barbaros, 
+                        offering a taste of Mexican nightlife. Step into this pixelated paradise and experience the lively atmosphere, delicious cocktails, 
+                        and upbeat music, making it the perfect spot to socialize and unwind with fellow players.</p>
+                </div></center>
+            </div>
+            
+            
+            <div class="container" style=" margin-top: 40px; flex-wrap: wrap;">
+                <center><div class="logo">
+                    <img src="https://media.discordapp.net/attachments/1133543254697201754/1134952959126536283/image.png?width=1307&height=671" alt="" width="800px" id="mainImage4" class="main">
+                </div>
+                <div class="images" width="800px;">
+                    <img onclick="changeImage4(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134953030962384937/image.png?width=1302&height=671" width="170px" id="image" class="thumbnail4">
+                    <img onclick="changeImage4(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134953137673863290/image.png?width=1307&height=671" width="170px" id="image" class="thumbnail4">
+                    <img onclick="changeImage4(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134953216732303370/image.png?width=1306&height=671" width="170px" id="image" class="thumbnail4">
+                    <img onclick="changeImage4(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134953316003106957/image.png?width=1300&height=670" width="170px" id="image" class="thumbnail4">
+                </div></center>
+                <center><div>
+                    <h2 style="text-align: center;">Mecano</h2>
+                    <p style="max-width: 700px; text-align: center;">Welcome to "Mecano Tuner Shop" in the thrilling world of Barbaros Fivem server! 
+                        As the city's premier auto customization hub, we offer players the ultimate playground to transform their owned cars into unique masterpieces. 
+                        Unleash your creativity, tweak engines, paint vibrant colors, 
+                        and add awe-inspiring accessories to rule the streets with unparalleled style and power.</p>
+                </div></center>
+            </div>
+            
+            <div class="container" style=" margin-top: 40px; flex-wrap: wrap;">
+                <center><div class="logo">
+                    <img src="https://media.discordapp.net/attachments/1133543254697201754/1134954906030190694/image.png?width=1409&height=671" alt="" width="800px" id="mainImage5" class="main">
+                </div>
+                <div class="images" width="800px;">
+                    <img onclick="changeImage5(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134955032534585354/image.png?width=1333&height=671" width="170px" id="image" class="thumbnail5">
+                    <img onclick="changeImage5(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134955112528351343/image.png?width=1304&height=671" width="170px" id="image" class="thumbnail5">
+                    <img onclick="changeImage5(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134955231084560495/image.png?width=1302&height=671" width="170px" id="image" class="thumbnail5">
+                    <img onclick="changeImage5(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134955345916219432/image.png?width=1335&height=671" width="170px" id="image" class="thumbnail5">
+                </div></center>
+                <center><div>
+                    <h2 style="text-align: center;">Cardealer</h2>
+                    <p style="max-width: 700px; text-align: center;">Welcome to "Barbaros Car Dealership" in our Fivem server! 
+                        As the leading destination for all your automotive dreams, we offer a vast selection of vehicles for players to own and cherish.
+                        From sleek sports cars to rugged off-roaders, find your perfect ride and hit the roads of Barbaros in style, 
+                        making every journey an exhilarating adventure.</p>
+                </div></center>
+            </div>
+            
+            <div class="container" style=" margin-top: 40px; flex-wrap: wrap;">
+                <center><div class="logo">
+                    <img src="https://media.discordapp.net/attachments/1133543254697201754/1134956876883312781/image.png?width=1299&height=671" alt="" width="800px" id="mainImage6" class="main">
+                </div>
+                <div class="images" width="800px;">
+                    <img onclick="changeImage6(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134956337361584228/image.png?width=1300&height=671" width="170px" id="image" class="thumbnail6">
+                    <img onclick="changeImage6(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134956520048701470/image.png?width=1306&height=671" width="170px" id="image" class="thumbnail6">
+                    <img onclick="changeImage6(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134956608481398875/image.png?width=1309&height=671" width="170px" id="image" class="thumbnail6">
+                    <img onclick="changeImage6(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134956751704305684/image.png?width=1307&height=671" width="170px" id="image" class="thumbnail6">
+                </div></center>
+                <center><div>
+                    <h2 style="text-align: center;">WuChang</h2>
+                    <p style="max-width: 700px; text-align: center;">Wuchang Bar: The ultimate virtual nightlife destination in our FiveM server. 
+                        Step into the electrifying atmosphere where talented DJs spin infectious beats, and master 
+                        mixologists craft an array of tantalizing cocktails. Get ready to dance, socialize, 
+                        and immerse yourself in the pulsating energy of Wuchang Bar's dynamic nightlife experience</p>
+                </div></center>
+            </div>
+            
+            <div class="container" style=" margin-top: 40px; flex-wrap: wrap;">
+                <center><div class="logo">
+                    <img src="https://media.discordapp.net/attachments/1133543254697201754/1134957511716384838/image.png?width=1349&height=671" alt="" width="800px" id="mainImage7" class="main">
+                </div>
+                <div class="images" width="800px;">
+                    <img onclick="changeImage7(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134957873466720356/image.png?width=1315&height=671" width="170px" id="image" class="thumbnail7">
+                    <img onclick="changeImage7(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134958077850951750/image.png?width=1342&height=671" width="170px" id="image" class="thumbnail7">
+                    <img onclick="changeImage7(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134958156158599198/image.png?width=1300&height=670" width="170px" id="image" class="thumbnail7">
+                    <img onclick="changeImage7(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134958231744159875/image.png?width=1297&height=671" width="170px" id="image" class="thumbnail7">
+                </div></center>
+                <center><div>
+                    <h2 style="text-align: center;">IrishPub</h2>
+                    <p style="max-width: 700px; text-align: center;">Irish Pub: A cozy haven in our FiveM server, 
+                        where players can unwind and enjoy a soothing ambiance while sipping on aromatic coffee. Settle into the welcoming atmosphere, 
+                        listen to soulful music, and engage in friendly conversations, 
+                        making the Irish Pub the perfect spot to take a break and recharge during your virtual adventures.</p>
+                </div></center>
+            </div>
+            
+            <div class="container" style=" margin-top: 40px; flex-wrap: wrap;">
+                <center><div class="logo">
+                    <img src="https://media.discordapp.net/attachments/1133543254697201754/1134959116457099379/image.png?width=1313&height=671" alt="" width="800px" id="mainImage8" class="main">
+                </div>
+                <div class="images" width="800px;">
+                    <img onclick="changeImage8(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134959226205249597/image.png?width=1342&height=671" width="170px" id="image" class="thumbnail8">
+                    <img onclick="changeImage8(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134959299513294928/image.png?width=1306&height=671" width="170px" id="image" class="thumbnail8">
+                    <img onclick="changeImage8(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134959494175150110/image.png?width=1324&height=671" width="170px" id="image" class="thumbnail8">
+                    <img onclick="changeImage8(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1134959585887789157/image.png?width=1297&height=671" width="170px" id="image" class="thumbnail8">
+                </div></center>
+                <center><div>
+                    <h2 style="text-align: center;">WhiteWidow Shop</h2>
+                    <p style="max-width: 700px; text-align: center;">White Widow: Venture into the underground world of Barbaros RolePlay 
+                         and explore the illicit opportunities at White Widow. This daring company offers a unique experience where players can buy and craft weed and other forbidden delights, allowing them to embrace
+                         a different side of their virtual existence and discover new avenues within the game's immersive universe.</p>
+                </div></center>
+            </div>
+        
+            <div class="container" style=" margin-top: 40px; flex-wrap: wrap;">
+                <center><div class="logo">
+                    <img src="https://media.discordapp.net/attachments/1133543254697201754/1135315726366933002/image.png?width=1313&height=671" alt="" width="800px" id="mainImage9" class="main">
+                </div>
+                <div class="images" width="800px;">
+                    <img onclick="changeImage9(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1135315719115001906/image.png?width=1313&height=671" width="170px" id="image" class="thumbnail9">
+                    <img onclick="changeImage9(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1135315870239969300/image.png?width=1300&height=671" width="170px" id="image" class="thumbnail9">
+                    <img onclick="changeImage9(this)" src="https://media.discordapp.net/attachments/1133543254697201754/1135315874115506287/image.png?width=1307&height=671" width="170px" id="image" class="thumbnail9">
+                </div></center>
+                <center><div>
+                    <h2 style="text-align: center;">Motor Dealer</h2>
+                    <p style="max-width: 700px; text-align: center;">Motor Dealer: A premier automotive dealership in the virtual world of Barbaros, 
+                        offering a wide range of meticulously crafted vehicles to suit every taste and style. Whether you seek speed, luxury, or ruggedness, 
+                        our expertly curated inventory promises to fuel your virtual adventures and elevate your driving experience to new heights.</p>
+                </div></center>
+            </div>
+        </body>
+        <script>
+            function changeImage(thumbnail) {
+                var mainImage = document.getElementById("mainImage");
+                mainImage.src = thumbnail.src;
+            }
+            
+            function changeImage1(thumbnail1) {
+                var mainImage1 = document.getElementById("mainImage1");
+                mainImage1.src = thumbnail1.src;
+            }
+            function changeImage2(thumbnail2) {
+                var mainImage2 = document.getElementById("mainImage2");
+                mainImage2.src = thumbnail2.src;
+            }
+            function changeImage3(thumbnail3) {
+                var mainImage3 = document.getElementById("mainImage3");
+                mainImage3.src = thumbnail3.src;
+            }
+            function changeImage4(thumbnail4) {
+                var mainImage4 = document.getElementById("mainImage4");
+                mainImage4.src = thumbnail4.src;
+            }    
+            function changeImage5(thumbnail5) {
+                var mainImage5 = document.getElementById("mainImage5");
+                mainImage5.src = thumbnail5.src;
+            }
+            function changeImage6(thumbnail6) {
+                var mainImage6 = document.getElementById("mainImage6");
+                mainImage6.src = thumbnail6.src;
+            }
+            function changeImage7(thumbnail7) {
+                var mainImage7 = document.getElementById("mainImage7");
+                mainImage7.src = thumbnail7.src;
+            }
+            function changeImage8(thumbnail8) {
+                var mainImage8 = document.getElementById("mainImage8");
+                mainImage8.src = thumbnail8.src;
+            }
+            function changeImage9(thumbnail9) {
+                var mainImage9 = document.getElementById("mainImage9");
+                mainImage9.src = thumbnail9.src;
+            }
+        </script>
+</body>
+</html>
